@@ -1,4 +1,4 @@
- // avlert("情人节快乐！！！")
+ avlert("情人节快乐！！！")
   /*
  * Settings
  */
