@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+#outer{
+    width: 280px;
+    height: 550px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 10px 0 ;
+    position: relative;
+    overflow: hidden;
+    /* line-height: 550px; */
+}
+#imglist{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+#imglist li{
+    margin: 0;
+    float: left;
+    margin: 0 10px;
+}
+#navDiv{
+    position: absolute;
+    bottom: 6%;
+    /* left: 40%; */
+}
+#navDiv a{
+    float: left;
+    margin: 0 3px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    opacity: 0.5;
+}
+/* a:hover{
+    */
+/* } */
+#navDiv a:hover{
+    background-color: black;
+}
