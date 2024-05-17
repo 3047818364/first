@@ -1,0 +1,190 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 500px;
+	overflow: hidden;
+}
+.header{
+	width: 90%;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+.header .dylogo{
+	width: 20px;
+	vertical-align: middle;
+}
+.logotitle{
+	vertical-align: middle;
+}
+.back{
+	width: 10px;
+	vertical-align: middle;
+}
+.content {
+  background-image: url('../img/bodyBg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 900px;
+  overflow: hidden;
+}
+.content_header{
+	width: 600px;
+	height: 200px;
+	margin: -80px 0 0 0 ;
+	margin-left: -20px;
+	background: url('../img/bodybg1.png') no-repeat;
+	background-size: 540px 300px;
+}
+.vce{
+	vertical-align: middle;
+}
+.ctitle{
+	margin-top: 80px;
+	margin-left: -80px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.cltitle{
+	font-weight: bold;
+}
+.clogo1{
+	width: 30px;
+}
+.clogo2{
+	width: 60px;
+}
+.scroll {
+    position: relative; /* 设置相对定位 */
+    width: 100%;
+    height: 650px;
+    overflow: auto;
+    background-image: url('../img/scroll.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	margin-top: -10px;
+	text-align: center;
+}
+.draw {
+	width: 83%;
+	margin-top: 50px;
+}
+.cate{
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	list-style-type: none;
+	color: #7c584c;
+}
+.cate li{
+	float: left;
+	margin: 6px;
+	margin-top: 16px;
+	width: 60px;
+	padding: 3px;
+}
+.on{
+	border-radius: 10px;
+	box-shadow: 0 0 0 2px rgb(247,243,236), 0 0 0 4px rgb(93,161,136);
+	background-color: rgb(93,161,136);
+	color: white;
+}
+.cate2{
+	display: block;
+	width: 450px;
+	list-style-type: none;
+	color: #b3afa9;
+}
+.cate2 li{
+	float: left;
+	margin: 6px;
+	margin-top: 16px;
+	width: 73px;
+}
+.inputdiv{
+	overflow: auto;
+	margin-left: 30px;
+	background-color: rgba(207,204,193,0.8);
+	width: 87.5%;
+	height: 60px;
+}
+.idcss{
+	margin-left: -50px;
+}
+.onlyin{
+	outline: none;
+	margin-top: 19.5px;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	font-size: 16px;
+	width: 185px;
+}
+.getbtn{
+	margin-top: 16px;
+	float: right;
+	background-color: rgb(255,63,82);
+	color: white;
+	border: none;
+	width: 70px;
+	padding: 3px;
+	font-size: 16px;
+	border-radius: 2px;
+	margin-right: 10px;
+}
+.num{
+	font-size: 12px;
+	color: #b3afa9;
+}
+.sharebtn{
+	color: white;
+	border: none;
+	background-color: rgb(255,63,82);
+	border-radius: 3px;
+	padding: 8px;
+	font-size: 15px;
+	width: 70px;
+	margin-top: 20px;
+}
+#loaddiv {
+	position: absolute;
+    /* display: flex; */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    height: 900px; /* 占据整个视口高度 */
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+	width: 460px;
+    padding: 20px; /* 可选，添加内边距 */
+	z-index: 1;
+	background-color: black;
+	opacity: 0.2;
+	display: none;
+}
+#loaddiv2 {
+	position: absolute;
+    /* display: flex; */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    height: 900px; /* 占据整个视口高度 */
+	width: 460px;
+    padding: 20px; /* 可选，添加内边距 */
+	z-index: 1;
+	display: none;
+}
+.success{
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 15px;
+	width: 120px;
+	text-align: center;
+	opacity: 0.6;
+	border-radius: 5px;
+}
+#loaddiv img{
+	width: 100px;
+}
